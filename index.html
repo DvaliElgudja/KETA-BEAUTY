@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./assets/images/icon.png"
+      type="image/x-icon"
+    />
+
+    <title>KETA BEAUTY</title>
+    <!-- ***************************Google Font***************************  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
+    />
+
+    <!-- ***************************CDN Framework + css + Js Local***************************  -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+      integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      async
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/scripts.min.js" defer></script>
+    <script src="./assets/maugallery.min.js" defer></script>
+    <link rel="stylesheet" href="./assets/style.css" media="all" />
+
+
+
+    <!-- Rich Snippets -->
+    <!-- <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "keta Photographe",
+        "image": "",
+        "@id": "",
+        "url": "",
+        "telephone": "05 56 67 78 89",
+        "priceRange": "50€ 400€",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "",
+          "addressLocality": "Strasbourg",
+          "postalCode": "67000",
+          "addressCountry": "FR"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": ,
+          "longitude": 
+        },
+        "openingHoursSpecification": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+          "opens": "10:00",
+          "closes": "20:00"
+        },
+        "sameAs": "https://www.instagram.com/keta__beauty?igshid=NzZlODBkYWE4Ng%3D%3D"
+      }
+    </script> -->
+    <!-- ***************************Google Tag***************************  -->
+   
+    <!-- *********************************************************************************************************************************************************************** -->
+  </head>
+
+  <body>
+    <header class="top-header">
+     <a href="#" style="text-decoration: none;"> <h1 class="name">KETA BEAUTY</h1></a>
+      <nav class="nav" aria-label="Navigation principale">
+        <ul>
+          <li>
+            <a href="#about" aria-label="Lien vers la section À propos"
+              >À propos</a
+            >
+          </li>
+          <li>
+            <a href="#gallery" aria-label="Lien vers la section Galerie"
+              >Galerie</a
+            >
+          </li>
+          <li>
+            <a href="#services" aria-label="Lien vers la section Services"
+              >Service</a
+            >
+          </li>
+          <li>
+            <a href="#contact" aria-label="Lien vers la section Contact"
+              >Contact</a
+            >
+          </li>
+          <li>
+            <a
+              class="social-link"
+              href="https://www.instagram.com/keta__beauty?igshid=NzZlODBkYWE4Ng%3D%3D"
+              target="_blank"
+              ><img
+                src="assets/images/instagram.png"
+                width="20"
+                height="20"
+                alt="image du logo instagram"
+                aria-label="Lien vers le profil instagram"
+            /></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div id="header">
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+              aria-roledescription="carrousel de 3 images"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+              aria-roledescription="carrousel de 3 images"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+              aria-roledescription="carrousel de 3 images"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                srcset="
+                  ./assets/images/slider/250px/1-250px.jpg    250w,
+                  ./assets/images/slider/400px/1-400px.jpg    400w,
+                  ./assets/images/slider/700px/1-700px.jpg    700w,
+                  ./assets/images/slider/900px/1-900px.jpg    900w,
+                  ./assets/images/slider/1200px/1-1200px.jpg 1200w,
+                  ./assets/images/slider/1920px/1-1920px.jpg 1920w
+                "
+                sizes="100vw"
+                src="./assets/images/slider/900px/1-900px.jpg"
+                class="d-block w-100"
+                alt="Photo "
+                width="1921"
+                height="888"
+                style="max-width: 100%; height: 450px"
+              />
+            </div>
+
+            <div class="carousel-item">
+              <img
+                srcset="
+                  ./assets/images/slider/250px/2-250px.jpg    250w,
+                  ./assets/images/slider/400px/2-400px.jpg    400w,
+                  ./assets/images/slider/700px/2-700px.jpg    700w,
+                  ./assets/images/slider/900px/2-900px.jpg    900w,
+                  ./assets/images/slider/1200px/2-1200px.jpg 1200w,
+                  ./assets/images/slider/1920px/2-1920px.jpg 1920w
+                "
+                sizes="100vw"
+                src="./assets/images/slider/900px/2-900px.jpg"
+                class="d-block w-100"
+                alt="Photo"
+                width="1921"
+                height="888"
+                style="max-width: 100%; height: 450px"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                srcset="
+                  ./assets/images/slider/250px/3-250px.jpg    250w,
+                  ./assets/images/slider/400px/3-400px.jpg    400w,
+                  ./assets/images/slider/700px/3-700px.jpg    700w,
+                  ./assets/images/slider/900px/3-900px.jpg    900w,
+                  ./assets/images/slider/1200px/3-1200px.jpg 1200w,
+                  ./assets/images/slider/1920px/3-1920px.jpg 1920w
+                "
+                sizes="100vw"
+                src="./assets/images/slider/900px/3-900px.jpg"
+                class="d-block w-100"
+                alt="Photo "
+                width="1921"
+                height="888"
+                style="max-width: 100%; height: 450px"
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <section id="about">
+        <div class="picture " role="figure">
+          <img
+            src="./assets/images/ketiketi.jpg"
+            alt="Photo "
+            width="375"
+            height="375"
+            style="max-width: 100%; height: auto"
+            aria-describedby="ariaDescription"
+          />
+        </div>
+        <div id="about-me">
+          <h2 class="about-me__title">A propos de moi</h2>
+          <span class="about-me__introduction" id="ariaDescription"
+            >Titulaire d'un diplôme en microblading obtenu en Turquie après cinq ans d'études rigoureuses, j'ai ensuite élargi mes compétences en me formant au botox et aux soins du visage. Forte de mon expérience, je me considère comme une professionnelle aguerrie dans mon domaine. Je maîtrise chaque aspect de ma spécialité avec une attention méticuleuse aux détails.
+          </span>
+          <p>Chaque jour, je me consacre à l'acquisition de nouvelles compétences, poursuivant mon objectif de maîtriser tous les aspects de ce métier. Mon engagement est de devenir une experte complète et polyvalente dans mon domaine.</p>
+        </div>
+      </section>
+
+      <section id="gallery">
+        <h2 class="title">Portfolio</h2>
+        <div class="container py-3">
+          <div
+            class="gallery"
+            style="display: none"
+            role="img"
+            aria-label="Différentes photos du travail de keta"
+          >
+            <img
+              data-gallery-tag="Levres"
+              class="gallery-item"
+              src="./assets/images/gallery/tuchi/tuchi1.jpg"
+              alt="Photo "
+              width="424"
+              height="424"
+            />
+
+            <img
+              data-gallery-tag="sourcil"
+              class="gallery-item"
+              src="./assets/images/gallery/warbi/warbi3.jpg"
+              alt="Photo "
+              width="424"
+              height="424"
+            />
+
+            <img
+              data-gallery-tag="Levres"
+              class="gallery-item"
+              src="./assets/images/gallery/tuchi/tuchi2.jpg"
+              alt="Photo "
+              width="424"
+              height="424"
+            />
+
+
+            <img
+              data-gallery-tag="Oeil"
+              class="gallery-item"
+              src="./assets/images/gallery/tvali/tvali 1.jpg"
+              alt="Photo"
+              width="424"
+              height="424"
+            />
+
+
+            <img
+              data-gallery-tag="Levres"
+              class="gallery-item"
+              src="./assets/images/gallery/tuchi/tuchi3.jpg"
+              alt="Photo "
+              width="424"
+              height="424"
+            />
+
+
+            <img
+            data-gallery-tag="sourcil"
+            class="gallery-item"
+            src="./assets/images/gallery/warbi/warbi1.jpg"
+            alt="Photo "
+            width="424"
+            height="424"
+          />
+
+
+            <img
+              data-gallery-tag="Levres"
+              class="gallery-item"
+              src="./assets/images/gallery/tuchi/tuchi4.jpg"
+              alt="photo "
+              width="424"
+              height="424"
+            />
+            <img
+              data-gallery-tag="Levres"
+              class="gallery-item"
+              src="./assets/images/gallery/tuchi/tuchi5.jpg"
+              alt="photo"
+              width="424"
+              height="424"
+            />
+
+
+            <img
+            data-gallery-tag="Oeil"
+            class="gallery-item"
+            src="./assets/images/gallery/tvali/tvali 2.jpg"
+            alt="Photo"
+            width="424"
+            height="424"
+          />
+
+
+            <img
+              data-gallery-tag="Levres"
+              class="gallery-item"
+              src="./assets/images/gallery/tuchi/tuchi6.jpg"
+              alt="Photo "
+              width="424"
+              height="424"
+            />
+            <img
+              data-gallery-tag="Levres"
+              class="gallery-item"
+              src="./assets/images/gallery/tuchi/tuchi7.jpg"
+              alt="photo"
+              width="424"
+              height="424"
+            />
+
+
+            <img
+              data-gallery-tag="sourcil"
+              class="gallery-item"
+              src="./assets/images/gallery/warbi/warbi2.jpg"
+              alt="Photo "
+              width="424"
+              height="424"
+            />
+
+
+            <img
+              data-gallery-tag="Levres"
+              class="gallery-item"
+              src="./assets/images/gallery/tuchi/tuchi8.jpg"
+              alt="Photo "
+              width="424"
+              height="424"
+            />
+            <img
+              data-gallery-tag="Levres"
+              class="gallery-item"
+              src="./assets/images/gallery/tuchi/tuchi9.jpg"
+              alt="Photo "
+              width="424"
+              height="424"
+            />
+            
+           
+           
+            
+            
+            
+          </div>
+        </div>
+
+        <div class="quote">
+          <figure>
+            <blockquote>
+              <span class="quote__text"
+                >"Un visage est une œuvre d'art. Il ne révèle pas seulement la beauté, mais raconte aussi l'histoire de la vie."
+              </span>
+            </blockquote>
+            <figcaption class="quote__author"></figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section id="services">
+        <h2 class="title">Mes services</h2>
+        <div class="container">
+          <div class="service">
+            <div class="service__description">
+              <h3>Microblading</h3>
+              <p>
+                Pour garantir une qualité exceptionnelle, optez pour un professionnel équipé de matériel haut de gamme. Votre beauté mérite l'excellence et la précision qu'apporte un expert dans le domaine.
+              </p>
+            </div>
+            <div class="service__price">
+              <h3>100€/Partie</h3>
+              <span>Matériel, déplacement inclus</span>
+            </div>
+          </div>
+          <div class="service">
+            <div class="service__description">
+              <h3>Retouches</h3>
+              <p>
+                Trois semaines après l'intervention, une retouche est recommandée pour maintenir une qualité supérieure sur le long terme. Cette étape supplémentaire assure la durabilité et l'efficacité du travail réalisé.
+              </p>
+            </div>
+            <div class="service__price">
+              <h4>50€/partie</h4>
+              <span>Matériel, déplacement inclus</span>
+            </div>
+          </div>
+          <div class="service">
+            <div class="service__description">
+              <h4>Botox/Filler/Mesotherapy etc..</h4>
+              <p>
+                Pour anticiper les besoins, il est conseillé de commander les matériaux nécessaires quelques semaines à l'avance.
+              </p>
+            </div>
+            <div class="service__price">
+              <h4>€ </h4>
+              <span>Le prix depend de votre besoin</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="quote">
+        <figure>
+          <blockquote>
+            <span class="quote__text"
+              >"La beauté est dans les yeux de celui qui regarde." </span
+            >
+          </blockquote>
+          <figcaption class="quote__author">- Oscar Wilde</figcaption>
+        </figure>
+      </div>
+
+      <footer id="contact">
+        <div class="container">
+          <div class="form-container">
+            <p>Une question ?</p>
+            <p style="color:red ;">
+              N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24
+              heures
+            </p>
+            <div>
+              <p>
+                <strong>👩🏻 :</strong> keta
+              </p>
+              <p>
+                <strong>✉️ :</strong> qberidze04@gmail.com
+              </p>
+              <p>
+                <strong>📞 :</strong> 06 63 46 05 16
+              </p>
+              <p>
+                <strong>ℹ︎:</strong> N'hésitez pas à me contacter pour toute demande ou information.
+              </p>
+            </div>
+          </div>
+          <figure class="picture ">
+            <img
+              src="./assets/images/camera.jpg"
+              alt="image "
+              width="417"
+              height="417"
+              style="max-width: 100%; height: auto"
+            />
+          </figure>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
